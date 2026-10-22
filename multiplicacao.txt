@@ -1,0 +1,58 @@
+; Estados
+q0,q_primeiro,q_segundo,q_inicio,q_escolher,q_ir_mult,q_copiar,q_ir_fim,q_voltar_copia,q_restaurar,q_voltar_esquerda,q_apagar_esquerda,q_buscar_sep,q_limpar,q_fim
+; Alfabeto de entrada
+1,*
+; Alfabeto da fita
+1,*,X,Y,#,B
+; Branco
+B
+; Estado inicial
+q0
+; Estados finais de aceitacao / parada
+q_fim
+; Transicoes: origem,le,escreve,direcao,destino
+
+; Valida a entrada e coloca # antes da area de resultado
+q0,1,1,R,q_primeiro
+q0,*,*,R,q_segundo
+q_primeiro,1,1,R,q_primeiro
+q_primeiro,*,*,R,q_segundo
+q_segundo,1,1,R,q_segundo
+q_segundo,B,#,L,q_inicio
+q_inicio,1,1,L,q_inicio
+q_inicio,*,*,L,q_inicio
+q_inicio,B,B,R,q_escolher
+
+; Marca um 1 do primeiro fator
+q_escolher,X,X,R,q_escolher
+q_escolher,1,X,R,q_ir_mult
+q_escolher,*,*,L,q_apagar_esquerda
+q_ir_mult,1,1,R,q_ir_mult
+q_ir_mult,*,*,R,q_copiar
+
+; Para cada 1 do segundo fator, acrescenta um 1 ao resultado
+q_copiar,Y,Y,R,q_copiar
+q_copiar,1,Y,R,q_ir_fim
+q_copiar,#,#,L,q_restaurar
+q_ir_fim,1,1,R,q_ir_fim
+q_ir_fim,Y,Y,R,q_ir_fim
+q_ir_fim,#,#,R,q_ir_fim
+q_ir_fim,B,1,L,q_voltar_copia
+q_voltar_copia,1,1,L,q_voltar_copia
+q_voltar_copia,#,#,L,q_voltar_copia
+q_voltar_copia,Y,Y,R,q_copiar
+
+; Restaura o segundo fator para a proxima repeticao
+q_restaurar,Y,1,L,q_restaurar
+q_restaurar,*,*,L,q_voltar_esquerda
+q_voltar_esquerda,1,1,L,q_voltar_esquerda
+q_voltar_esquerda,X,X,L,q_voltar_esquerda
+q_voltar_esquerda,B,B,R,q_escolher
+
+; Apaga os fatores e os separadores, deixando somente o produto
+q_apagar_esquerda,X,B,L,q_apagar_esquerda
+q_apagar_esquerda,B,B,R,q_buscar_sep
+q_buscar_sep,B,B,R,q_buscar_sep
+q_buscar_sep,*,B,R,q_limpar
+q_limpar,1,B,R,q_limpar
+q_limpar,#,B,R,q_fim

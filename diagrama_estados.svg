@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1020" viewBox="0 0 1200 1020">
+<defs><marker id="seta" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#334155"/></marker></defs>
+<rect width="1200" height="1020" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172554} .regra{font-size:17px;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}</style>
+<text x="600" y="30" text-anchor="middle" font-size="24">Equipe 1 — Grafo completo da máquina</text>
+<path d="M210.0,110.0 C310.0,110.0 230.0,110.0 330.0,110.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="270.0" y="98.0" text-anchor="middle">1/1,R</text>
+<path d="M210.0,110.0 C290,225 550,225 630.0,110.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="420.0" y="200" text-anchor="middle">*/*,R</text>
+<path d="M390,88 C320,10 520,10 450,88" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="420" y="21" text-anchor="middle">1/1,R</text>
+<path d="M510.0,110.0 C610.0,110.0 530.0,110.0 630.0,110.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="570.0" y="98.0" text-anchor="middle">*/*,R</text>
+<path d="M690,88 C620,10 820,10 750,88" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="720" y="21" text-anchor="middle">1/1,R</text>
+<path d="M810.0,110.0 C910.0,110.0 830.0,110.0 930.0,110.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="870.0" y="98.0" text-anchor="middle">B/#,L</text>
+<path d="M990,88 C920,10 1120,10 1050,88" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1020" y="21" text-anchor="middle">1/1,L</text>
+<text class="regra" x="1020" y="40" text-anchor="middle">*/*,L</text>
+<path d="M1020.0,132.0 C1020.0,215.33333333333331 1020.0,254.66666666666669 1020.0,338.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1072.0" y="235.0" text-anchor="middle">B/B,R</text>
+<path d="M1095,338 C1145,265 1145,455 1095,382" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1155" y="345" text-anchor="middle">X/X,R</text>
+<path d="M930.0,360.0 C830.0,360.0 910.0,360.0 810.0,360.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="870.0" y="348.0" text-anchor="middle">1/X,R</text>
+<path d="M1020.0,382.0 C1020.0,465.3333333333333 1020.0,504.6666666666667 1020.0,588.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1072.0" y="485.0" text-anchor="middle">*/*,L</text>
+<path d="M690,338 C620,260 820,260 750,338" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="720" y="271" text-anchor="middle">1/1,R</text>
+<path d="M630.0,360.0 C530.0,360.0 610.0,360.0 510.0,360.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="570.0" y="348.0" text-anchor="middle">*/*,R</text>
+<path d="M390,338 C320,260 520,260 450,338" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="420" y="271" text-anchor="middle">Y/Y,R</text>
+<path d="M330.0,360.0 C230.0,360.0 310.0,360.0 210.0,360.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="270.0" y="348.0" text-anchor="middle">1/Y,R</text>
+<path d="M420.0,382.0 C420.0,465.3333333333333 420.0,504.6666666666667 420.0,588.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="472.0" y="485.0" text-anchor="middle">#/#,L</text>
+<path d="M90,338 C20,260 220,260 150,338" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="120" y="271" text-anchor="middle">1/1,R</text>
+<text class="regra" x="120" y="290" text-anchor="middle">Y/Y,R</text>
+<text class="regra" x="120" y="309" text-anchor="middle">#/#,R</text>
+<path d="M120.0,382.0 C120.0,465.3333333333333 120.0,504.6666666666667 120.0,588.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="172.0" y="485.0" text-anchor="middle">B/1,L</text>
+<path d="M45,588 C-5,515 -5,705 45,632" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="35" y="690" text-anchor="middle">1/1,L</text>
+<text class="regra" x="35" y="709" text-anchor="middle">#/#,L</text>
+<path d="M146.4,588.0 C246.4,504.6666666666667 293.6,465.3333333333333 393.6,382.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="250" y="505" text-anchor="middle">Y/Y,R</text>
+<path d="M345,588 C295,515 295,705 345,632" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="335" y="690" text-anchor="middle">Y/1,L</text>
+<path d="M510.0,610.0 C610.0,610.0 530.0,610.0 630.0,610.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="570.0" y="598.0" text-anchor="middle">*/*,L</text>
+<path d="M690,588 C620,510 820,510 750,588" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="720" y="521" text-anchor="middle">1/1,L</text>
+<text class="regra" x="720" y="540" text-anchor="middle">X/X,L</text>
+<path d="M746.4,588.0 C846.4,504.6666666666667 893.6,465.3333333333333 993.6,382.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="875" y="500" text-anchor="middle">B/B,R</text>
+<path d="M990,588 C920,510 1120,510 1050,588" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1020" y="521" text-anchor="middle">X/B,L</text>
+<path d="M1020.0,632.0 C1020.0,715.3333333333334 1020.0,754.6666666666666 1020.0,838.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1072.0" y="735.0" text-anchor="middle">B/B,R</text>
+<path d="M1095,838 C1145,765 1145,955 1095,882" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="1155" y="845" text-anchor="middle">B/B,R</text>
+<path d="M930.0,860.0 C830.0,860.0 910.0,860.0 810.0,860.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="870.0" y="848.0" text-anchor="middle">*/B,R</text>
+<path d="M690,838 C620,760 820,760 750,838" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="720" y="771" text-anchor="middle">1/B,R</text>
+<path d="M630.0,860.0 C530.0,860.0 610.0,860.0 510.0,860.0" fill="none" stroke="#334155" stroke-width="1.6" marker-end="url(#seta)"/>
+<text class="regra" x="570.0" y="848.0" text-anchor="middle">#/B,R</text>
+<rect x="30" y="88" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="120" y="116" font-size="17" text-anchor="middle">q0</text>
+<rect x="330" y="88" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="420" y="116" font-size="17" text-anchor="middle">q_primeiro</text>
+<rect x="630" y="88" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="720" y="116" font-size="17" text-anchor="middle">q_segundo</text>
+<rect x="930" y="88" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="1020" y="116" font-size="17" text-anchor="middle">q_inicio</text>
+<rect x="930" y="338" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="1020" y="366" font-size="17" text-anchor="middle">q_escolher</text>
+<rect x="630" y="338" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="720" y="366" font-size="17" text-anchor="middle">q_ir_mult</text>
+<rect x="330" y="338" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="420" y="366" font-size="17" text-anchor="middle">q_copiar</text>
+<rect x="30" y="338" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="120" y="366" font-size="17" text-anchor="middle">q_ir_fim</text>
+<rect x="30" y="588" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="120" y="616" font-size="17" text-anchor="middle">q_voltar_copia</text>
+<rect x="330" y="588" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="420" y="616" font-size="17" text-anchor="middle">q_restaurar</text>
+<rect x="630" y="588" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="720" y="616" font-size="17" text-anchor="middle">q_voltar_esquerda</text>
+<rect x="930" y="588" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="1020" y="616" font-size="17" text-anchor="middle">q_apagar_esquerda</text>
+<rect x="930" y="838" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="1020" y="866" font-size="17" text-anchor="middle">q_buscar_sep</text>
+<rect x="630" y="838" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<text x="720" y="866" font-size="17" text-anchor="middle">q_limpar</text>
+<rect x="330" y="838" width="180" height="44" rx="18" fill="#eff6ff" stroke="#172554" stroke-width="2"/>
+<rect x="335" y="843" width="170" height="34" rx="14" fill="none" stroke="#172554"/>
+<text x="420" y="866" font-size="17" text-anchor="middle">q_fim</text>
+<path d="M0,110 L27,110" stroke="#334155" marker-end="url(#seta)"/>
+<text x="600" y="940" text-anchor="middle" font-size="19">Rótulo: lido/escrito,movimento. R = direita; L = esquerda; S = parado.</text>
+<text x="600" y="970" text-anchor="middle" font-size="19">Estado final: q_fim. Regra ausente em estado não final: rejeição.</text>
+</svg>
